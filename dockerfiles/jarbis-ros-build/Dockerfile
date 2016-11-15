@@ -7,3 +7,6 @@ ADD scripts tmp/scripts
 
 # Install jarbis
 RUN cd tmp && scripts/jarbis_install.sh
+
+RUN mkdir project
+WORKDIR /project
