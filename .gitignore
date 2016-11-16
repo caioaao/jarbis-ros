@@ -42,6 +42,7 @@ qtcreator-*
 
 # Emacs
 .#*
+.tramp_history
 
 # Catkin custom files
 CATKIN_IGNORE
